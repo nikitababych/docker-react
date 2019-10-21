@@ -1,0 +1,10 @@
+[0;1;32m●[0m docker.service - Docker Application Container Engine
+   Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Mon 2019-10-21 14:23:35 EEST; 13min ago
+     Docs: https://docs.docker.com
+ Main PID: 2125 (dockerd)
+    Tasks: 23
+   CGroup: /system.slice/docker.service
+           └─2125 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
